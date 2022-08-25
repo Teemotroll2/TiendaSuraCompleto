@@ -1,0 +1,122 @@
+.banner{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/tiendasuralmm.appspot.com/o/azul2.webp?alt=media&token=4a90d1d7-1046-4c18-a577-a3227c2d5086");
+    padding: 35% 35% 35% 35%;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index:1;
+}
+
+.banner1{
+        background-image: url("../img/magnifica-modelo-femenina-falda-midi-bailando-riendo-pared-rosa-mujer-caucasica-emocionada-ropa-azul-que-expresa-emociones-positivas_197531-5249.webp");
+        padding: 35% 35%;
+        background-size: cover;
+        background-position: top center;
+        position: relative;
+        z-index:1;
+    }
+
+.banner::after{
+    content: '';
+    height: 100%;
+    width:100%;
+    background-color: black;
+    position:absolute;
+    top:0;
+    left:0;
+    opacity: 0.45;
+    z-index: -1;
+}
+
+.fuente{
+    font-family: 'Delius', cursive;
+    font-family: 'Just Another Hand', cursive;
+    font-family: 'Kalam', cursive;
+}
+#cuadros{
+    background-color: lightpink;
+}
+
+#cajas_redes {
+    width: 99%;
+    height: 200px;
+    background-image: url(Imagenes/fondodelfondo.jpg);
+    margin: 25px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    background-size: 100% 100%;
+    box-shadow: black 10px 20px 20px 20px;
+ }
+ 
+ .cajas_redes2 {
+    width: 96%;
+    height: 200px;
+    justify-content: space-evenly;
+    align-content: center;
+    background-image: url(Imagenes/fondo\ TOTAL.jpg);
+    flex-wrap: row wrap;
+    display: flex;
+    background-size: 100% 100%;
+    margin: 30px;
+ 
+ }
+ 
+ .cubo_red {
+    width: 65%;
+    height: 120px;
+    justify-content: space-evenly;
+    align-content: center;
+    background-image: url(Imagenes/redesmorado.jpg);
+    margin: 20px;
+    align-items: center;
+    display: flex;
+    background-size: 100% 100%;
+ 
+ }
+ 
+ .derechos_de_autor {
+    width: 25%;
+    height: 150px;
+    justify-content: space-evenly;
+    align-content: center;
+    background-image: url(Imagenes/textomorado.jpg);
+    margin: 20px;
+    display: flex;
+    background-size: 100% 100%;
+ }
+ 
+ .letra_autor {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+ }
+ 
+ .facebok,
+ .twiter,
+ .wasap,
+ .youtube {
+    width: 80px;
+    height: 80px;
+    justify-content: space-between;
+    align-content: center;
+    margin: 20px;
+    display: flex;
+    background-size: 100% 100%;
+    border-radius: 50%;
+ }
+ 
+ .facebok {
+    background-image: url(../img/faceboock.png);
+ }
+ 
+ .twiter {
+    background-image: url(../img/Twitter-logo.svg.png);
+ }
+ 
+ .wasap {
+    background-image: url(../img/WhatsApp.svg.webp);
+ }
+ 
+ .youtube {
+    background-image: url(../img/YouTube.webp);
+ }
